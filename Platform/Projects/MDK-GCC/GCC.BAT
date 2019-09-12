@@ -1,0 +1,32 @@
+SET CPU_TYPE=ARMCM3
+SET CPU_VENDOR=ARM
+SET UV2_TARGET=GCC
+SET CPU_CLOCK=0x00B71B00
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-as" @".\objects\startup_thm36_gcc._ia"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\crc.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\dma.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\exti.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\flash.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\flash_cache.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\gpio.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\i2c.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\iso7816m.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\pwr.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\rcc.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\sensor.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\spi.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\tim.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\uart.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\vbat.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\wdt.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\pll_enable.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\main.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\system_thm36x2.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\thm3662_it.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\pxat_cmd.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\pxat_led.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\pxat_uart.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\pxat_var.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\objects\pxat_vendor.__i"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-gcc" @".\Objects\THM36X~1.LNP"
+"C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin\arm-none-eabi-objcopy.exe" -O ihex ./Objects/THM36x2_GCC.elf ./Objects/THM36x2_GCC.hex
